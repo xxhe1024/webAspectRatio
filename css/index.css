@@ -33,21 +33,21 @@ body {
     height: auto;
     max-width: 100vw;
     max-height: 100vh;
-    aspect-ratio: 21 / 9;
+    aspect-ratio: 21.5 / 9;
     background-color: #e0e0e0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-@media (max-aspect-ratio: 21/9) {
+@media (max-aspect-ratio: 21.5/9) {
     .box {
         width: 100vw;
-        height: calc(100vw * 9 / 21);
+        height: calc(100vw * 9 / 21.5);
     }
 }
-@media (min-aspect-ratio: 21/9) {
+@media (min-aspect-ratio: 21.5/9) {
     .box {
         height: 100vh;
-        width: calc(100vh * 21 / 9);
+        width: calc(100vh * 21.5 / 9);
     }
 }
 
